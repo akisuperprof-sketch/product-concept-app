@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { RefreshCw, Play, Info, Check, TrendingUp, Sparkles, Brain, Briefcase } from 'lucide-react';
+import { RefreshCw, Play, Info, Check, Sparkles, Brain, Briefcase } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { mockSection2Result } from '../services/mockData';
 import clsx from 'clsx';

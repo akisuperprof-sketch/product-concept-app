@@ -1,5 +1,5 @@
+import { ArrowLeft, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
-import { ArrowLeft, ChevronDown, Loader2 } from 'lucide-react';
 export default function Section1Input({ onAnalyze }: { onAnalyze: () => void }) {
     const [text, setText] = useState('');
 
