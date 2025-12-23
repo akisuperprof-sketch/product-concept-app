@@ -8,14 +8,14 @@ export default {
     extend: {
       colors: {
         brand: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8',
-          500: '#0ea5e9',
-          600: '#0284c7',
-          700: '#0369a1',
+          50: '#f0fdf4', // emerald-50
+          100: '#dcfce7', // emerald-100
+          200: '#bbf7d0', // emerald-200
+          300: '#86efac', // emerald-300
+          400: '#4ade80', // emerald-400
+          500: '#22c55e', // emerald-500
+          600: '#16a34a', // emerald-600
+          700: '#15803d', // emerald-700
         },
         harm: {
           health: '#4ade80',  // green-400

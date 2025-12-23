@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import LandingPage from './components/LandingPage';
 import Section1Input from './components/Section1Input';
 import Section2Genre from './components/Section2Genre';
 import Section3Analysis from './components/Section3Analysis';
 import LoadingScreen from './components/LoadingScreen';
 
 function App() {
+  const [showLanding, setShowLanding] = useState(true);
   const [step, setStep] = useState<1 | 2 | 3>(1);
   const [isLoading, setIsLoading] = useState(false);
   const [loadingText, setLoadingText] = useState('');
@@ -49,6 +51,10 @@ function App() {
     }, 1500);
   };
 
+  if (showLanding) {
+    return <LandingPage onStart={() => setShowLanding(false)} />;
+  }
+
   return (
     <div className="min-h-screen pb-20 font-sans">
       {isLoading && (
@@ -62,7 +68,7 @@ function App() {
       <main className="max-w-6xl mx-auto px-4 py-8">
         {step === 1 && !isLoading && <Section1Input onAnalyze={handleStartAnalysis} />}
         {step === 2 && !isLoading && <Section2Genre onNext={handleGenreSelected} />}
-        {step === 3 && !isLoading && <Section3Analysis />}
+        {step === 3 && !isLoading && <Section3Analysis onBack={() => { setStep(1); window.scrollTo(0, 0); }} />}
       </main>
     </div>
   );
