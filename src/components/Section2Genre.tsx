@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { RefreshCw, Play, Info, Check, ArrowRight, TrendingUp, Sparkles, Brain, Briefcase } from 'lucide-react';
-import { PieChart, Pie, Cell, ResponsiveContainer, Label } from 'recharts';
+import { useState } from 'react';
+import { RefreshCw, Play, Info, Check, TrendingUp, Sparkles, Brain, Briefcase } from 'lucide-react';
+import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { mockSection2Result } from '../services/mockData';
 import clsx from 'clsx';
-import { GenreCandidate } from '../types';
+import type { GenreCandidate } from '../types';
 
 export default function Section2Genre({ onNext }: { onNext: () => void }) {
     const result = mockSection2Result;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Section1Input from './components/Section1Input';
 import Section2Genre from './components/Section2Genre';
 import Section3Analysis from './components/Section3Analysis';

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { RefreshCw, ExternalLink, ChevronDown, ChevronUp, Zap, Search, Activity, BarChart3, TrendingUp, AlertTriangle, Lightbulb, GraduationCap, ArrowLeft, Home } from 'lucide-react';
-import { ResponsiveContainer, ScatterChart, Scatter, XAxis, YAxis, ZAxis, Tooltip, Cell, ReferenceArea, ReferenceLine } from 'recharts';
+import { useState } from 'react';
+import { RefreshCw, ChevronDown, ChevronUp, Zap, Search, Activity, BarChart3, TrendingUp, AlertTriangle, Lightbulb, GraduationCap, ArrowLeft, Home, Check } from 'lucide-react';
+import { ResponsiveContainer, ScatterChart, Scatter, XAxis, YAxis, ZAxis, Tooltip, Cell, ReferenceArea } from 'recharts';
 import { mockMarketAnalysis } from '../services/mockData';
 import clsx from 'clsx';
 

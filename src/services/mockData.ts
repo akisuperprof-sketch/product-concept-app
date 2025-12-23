@@ -1,4 +1,4 @@
-import { Section2Result, MarketAnalysis } from '../types';
+import type { Section2Result, MarketAnalysis } from '../types';
 
 export const mockSection2Result: Section2Result = {
     sessionId: '46bc1a',
