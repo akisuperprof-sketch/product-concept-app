@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { RefreshCw, ChevronDown, Zap, Search, Activity, BarChart3, TrendingUp, AlertTriangle, Lightbulb, ArrowLeft, Check, Globe, Info } from 'lucide-react';
+import { Zap, Search, Activity, BarChart3, TrendingUp, Lightbulb, ArrowLeft, Check, Globe, Info, ChevronDown } from 'lucide-react';
 import { ResponsiveContainer, ScatterChart, Scatter, XAxis, YAxis, ZAxis, Tooltip, Cell, ReferenceArea } from 'recharts';
 import { mockMarketAnalysis } from '../services/mockData';
 import clsx from 'clsx';

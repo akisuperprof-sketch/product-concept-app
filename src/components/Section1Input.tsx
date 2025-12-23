@@ -1,4 +1,4 @@
-import { ArrowLeft, ChevronDown, Clipboard, Edit3 } from 'lucide-react';
+import { ArrowLeft, Clipboard, Edit3 } from 'lucide-react';
 import { useState } from 'react';
 
 type InputMode = 'json' | 'manual';

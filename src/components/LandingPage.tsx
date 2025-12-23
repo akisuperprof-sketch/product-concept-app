@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowRight, Lightbulb, Target, TrendingUp, Cpu } from 'lucide-react';
+import { ArrowRight, Lightbulb, Target, Cpu } from 'lucide-react';
 
 interface LandingPageProps {
     onStart: () => void;
